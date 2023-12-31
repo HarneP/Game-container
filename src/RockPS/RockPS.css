@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: "Arial", sans-serif;
+}
+
+.App {
+  text-align: center;
+  margin: 50px;
+}
+
+.heading {
+  color: #ffcc00;
+}
+
+.score {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.choice {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-left: 8rem;
+  margin-right: 11rem;
+}
+
+.choice-user,
+.choice-computer {
+  padding: 5px;
+  background-color: #333;
+  border-radius: 8px;
+}
+
+.user-hand,
+.computer-hand {
+  width: 100px;
+  height: 100px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.choice-user:hover .user-hand,
+.choice-computer:hover .computer-hand {
+  transform: scale(1.1);
+}
+
+.button-div {
+  margin: 20px 0;
+}
+
+.button {
+  background-color: #ffcc00;
+  color: #333;
+  padding: 10px 20px;
+  margin: 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #ff9900;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.button-div:last-child {
+  margin-top: 30px;
+}
