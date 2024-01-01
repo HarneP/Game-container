@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <container>
-      <div>
+      {/* <div>
         <Link to="/magic">Magic</Link>
       </div>
       <div>
@@ -15,7 +15,7 @@ export default function Home() {
     </div>
     <div>
       <Link to="/dice">Dice Game</Link>
-    </div>
+    </div> */}
     </container>
   );
 }

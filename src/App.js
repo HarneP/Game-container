@@ -3,7 +3,7 @@ import "./App.css";
 import TicTacToe from "./tic-tac-toe/TicTacToe";
 import { NavigationBar } from './components/NavigationBar';
 import { Footer } from './components/Footer';
-import { Cards } from "./components/Cards";
+import { Dashboard } from "./components/Dashboard";
 import Home from "./Home";
 import MyGame from "./magicgame/MyGame";
 import RockPS from "./RockPS/RockPS";
@@ -15,7 +15,7 @@ function App() {
     <BrowserRouter>
     <NavigationBar></NavigationBar>
     
-    <Cards></Cards>
+     <Dashboard></Dashboard>
 
       <Routes>
         <Route path="/" element={<Home />}></Route>
