@@ -4,7 +4,6 @@ import TicTacToe from "./tic-tac-toe/TicTacToe";
 import { NavigationBar } from './components/NavigationBar';
 import { Footer } from './components/Footer';
 import { Cards } from "./components/Cards";
-import { Backg } from "./components/Backg";
 import Home from "./Home";
 import MyGame from "./magicgame/MyGame";
 import RockPS from "./RockPS/RockPS";
@@ -15,7 +14,7 @@ function App() {
   return (
     <BrowserRouter>
     <NavigationBar></NavigationBar>
-    <Backg></Backg>
+    
     <Cards></Cards>
 
       <Routes>

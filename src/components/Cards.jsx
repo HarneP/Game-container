@@ -32,7 +32,7 @@ export function Cards() {
                                 <Link to="/dice">Dice Game</Link>
                                
                                 <p> </p>
-                                <a role="button" tabindex="0" href="" class="mt-3 btn btn-primary">Dice game</a> 
+                                <Button variant="primary" class="mt-3 " href="./dice/Dice" >Dice Game</Button> 
                             </Card.Body>
                         </Card>
                     </Col>
@@ -56,11 +56,11 @@ export function Cards() {
                             <Card.Body>
                                 <Card.Title>ROCK PAPER SCISSORS</Card.Title>
                                 <Card.Text>
-                                    
+                                The familiar game of Rock, Paper, Scissors is played like this: at the same time, two players display one of three symbols: a rock, paper, or scissors. A rock beats scissors, scissors beat paper by cutting it, and paper beats rock by covering it.
                                 </Card.Text>
                                 <Link to="/Rock">Rock Paper Scissors</Link>
                                 <p> </p>
-                                <a role="button" tabindex="0" href="" class="mt-3 btn btn-primary">Rock Paper Scissors</a>
+                                <Button variant="primary" class="mt-3 " href="./RockPS/RockPS" >Rock Paper Scissors</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -76,7 +76,7 @@ export function Cards() {
 
                                 <br></br>
                                 <p>  </p>
-                                <a role="button" tabindex="0" href="" class="mt-3 btn btn-primary">TicTacToe</a>
+                                <Button variant="primary" class="mt-3 btn btn-primary" href="/TicTacToe" >TicTacToe</Button>
                             </Card.Body>
                         </Card>
                     </Col>
